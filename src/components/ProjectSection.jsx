@@ -1,14 +1,7 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-  {
-    id: 1,
-    title: "Portfolio Website",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/project/portfolio.jpg",
-    tags: ["React", "TailwindCSS"],
-    githubUrl: "https://github.com/kimchim00/Portfolio",
-  },
+ 
   {
     id: 2,
     title: "Home Goods Store",
