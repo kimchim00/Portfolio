@@ -8,6 +8,7 @@ const projects = [
     image: "/project/portfolio.jpg",
     tags: ["React", "TailwindCSS"],
     githubUrl: "https://github.com/kimchim00/Portfolio",
+    demoUrl:"https://portfolio-kimiamash.vercel.app/"
   },
   {
     id: 2,
@@ -81,7 +82,13 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                   
+                    <a
+                      href={project.demoUrl}
+                      target="_blank"
+                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    >
+                      <ExternalLink size={20} />
+                    </a>
                     <a
                       href={project.githubUrl}
                       target="_blank"
