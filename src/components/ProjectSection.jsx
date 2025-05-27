@@ -24,7 +24,7 @@ const projects = [
     title: "Weather App",
     description:
       "A responsive web application that displays real-time weather information using public APIs.",
-    image: "/projects/weather.jpg",
+    image: "/project/weather.jpg",
     tags: ["TypeScript", "TailwindCSS","API","Shadcn"],
     githubUrl: "https://github.com/kimchim00/Weather-App",
     demoUrl:"https://weather-app-ashy-sigma-68.vercel.app/"
