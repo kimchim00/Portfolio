@@ -8,7 +8,7 @@ const projects = [
     image: "/project/portfolio.jpg",
     tags: ["React", "TailwindCSS"],
     githubUrl: "https://github.com/kimchim00/Portfolio",
-    demoUrl:"https://portfolio-kimiamash.vercel.app/"
+    demoUrl:"https://portfolio-kimiamash-git-main-kimchim00s-projects.vercel.app/"
   },
   {
     id: 2,
