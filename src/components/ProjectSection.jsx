@@ -31,12 +31,12 @@ const projects = [
   },
   {
     id: 4,
-    title: "Chocolate-Ordering-Site",
+    title: "todo-list",
     description:
-      "A user-friendly platform to order chocolates online with customizable options.",
-    image: "/project/choclate.jpg",
-    tags: ["React", "TailwindCSS"],
-    githubUrl: "https://github.com/kimchim00/Chocolate-Ordering-Site",
+      "A very simple todo-list app to practice Fast-API and MongoDB.",
+    image: "/project/todo.jpg",
+    tags: ["FastAPI","MongoDB","React", "TailwindCSS"],
+    githubUrl: "https://github.com/kimchim00/todo-list",
   },
 ];
 
